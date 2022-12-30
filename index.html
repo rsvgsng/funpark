@@ -14,22 +14,51 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 
 <body>
 
+
+    <!-- overlays fb etcx-->
+
+
     <!-- navbar and hero section -->
 
     <nav class="main-nav ">
+        
+    <div class="phoneNAV" >
+        <div class="cross__mark">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="phone__nav__items">
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>EVENTS</li>
+                <li>GALLERY</li>
+                <li>CONTACT</li>
+            </ul>
+        </div>
 
+      </div>
+
+
+        <div class="video__back">
+            <video src="/assets/water.mp4" loop muted  autoplay width="100%" ></video>
+        </div>
         <div class="overlay"></div>
         <div class="container-fluid">
+            <div class="ham__burger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
             <!-- navbar and main logo -->
             <div class="row ci">
 
                 <div class="col-lg-4">
-                    <div class="left__items ">
+                    <div class="left__items " data-aos="fade-right">
                         <ul>
                             <li>HOME</li>
                             <li>ABOUT</li>
@@ -40,12 +69,12 @@
 
                 </div>
                 <div class="col-lg-4">
-                    <div class="center__items">
+                    <div class="center__items" data-aos="fade-down">
                         <img src="/assets/logo.png" class="img-fluid " alt="" srcset="">
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="right__items ">
+                    <div class="right__items " data-aos="fade-left">
 
                         <ul>
                             <li>GALLERY</li>
@@ -62,21 +91,23 @@
             <div class="hero__main">
                 <div class="row">
                     <div class="col-lg-4">
-                        <div class="left__image__hero">
+                        <div class="left__image__hero" data-aos="fade-right">
                             <img src="/assets/Kale.png" class="img-fluid " alt="" srcset="">
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="center__item__hero">
-                            <h1>Nepal's Famous Funpark</h1>
+                        <div class="center__item__hero" >
+                            <h1>WELCOME TO THE OCEAN OF FUN! </h1>
+<a href="#welcome">
 
-                            <button class="center__hero__button ">
-                                Explore
-                            </button>
+    <button class="center__hero__button " >
+        Explore
+    </button>
+</a>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="right__image__hero">
+                        <div class="right__image__hero" data-aos="fade-left">
                             <img src="/assets/Kale2.png" class="img-fluid " alt="" srcset="">
                         </div>
                     </div>
@@ -91,11 +122,24 @@
 
     <!--section 2 welcome section  -->
 
-    <section class="section__two customcc">
+    <section class="section__two customcc" id="welcome">
+        <div class="bubbles">
+            <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          
+        </div>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="left__content__sec2">
+                    <div class="left__content__sec2" data-aos="fade-right" >
                         <div class="sec2_title">
                             <h1>Welcome</h1>
                         </div>
@@ -111,7 +155,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="right__image__sec2">
+                    <div class="right__image__sec2" data-aos="fade-left">
                         <img src="/assets/welcome__image.png" class="img-fluid" alt="">
                     </div>
                 </div>
@@ -120,11 +164,11 @@
     </section>
 
     <!-- section 3 about water kingdom -->
-    <section class="section__three customcc ">
-        <div class="container-fluid bak">
+    <section class="section__three customcc " >
+        <div class="container-fluid ">
             <div class="row  ci">
-                <div class="col-lg-6">
-                    <div class="left__items__sec3">
+                <div class="col-lg-6 col-md-12">
+                    <div class="left__items__sec3" data-aos="fade-right">
                         <div class="_about_top">
                             <h3>ABOUT WATER KINGDOM</h3>
                         </div>
@@ -143,19 +187,19 @@
                             </p>
                         </div>
                         <div class="_features_about">
-                            <div class="row bak ">
-                                <div class="col-lg-6">
+                            <div class="row  ">
+                                <div class="col-lg-6 ">
 
 
 
 
                                     <div class="_item_feature">
                                         <div class="row">
-                                            <div class="col-2">
+                                            <div class="col-1">
                                                 <i class="fa-solid fa-wine-glass"></i>
 
                                             </div>
-                                            <div class="col-10">
+                                            <div class="col-11">
                                                 <h3>Food & Drinks</h3>
                                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ipsam
                                                     cupiditate neque tenetur doloribus libero veritatis incidunt natus
@@ -179,12 +223,12 @@
 
                                     <div class="_item_feature">
                                         <div class="row">
-                                            <div class="col-2">
+                                            <div class="col-1">
                                                 <i class="fa-solid fa-wine-glass"></i>
 
                                             </div>
-                                            <div class="col-10">
-                                                <h3>Food</h3>
+                                            <div class="col-11">
+                                                <h3>Food & Drinks</h3>
                                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ipsam
                                                     cupiditate neque tenetur doloribus libero veritatis incidunt natus
                                                     dignissimos voluptas.</p>
@@ -203,14 +247,16 @@
                                 <div class="col-lg-6">
 
 
+
+
                                     <div class="_item_feature">
                                         <div class="row">
-                                            <div class="col-2">
+                                            <div class="col-1">
                                                 <i class="fa-solid fa-wine-glass"></i>
 
                                             </div>
-                                            <div class="col-10">
-                                                <h3>Food</h3>
+                                            <div class="col-11">
+                                                <h3>Food & Drinks</h3>
                                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ipsam
                                                     cupiditate neque tenetur doloribus libero veritatis incidunt natus
                                                     dignissimos voluptas.</p>
@@ -218,12 +264,8 @@
                                             </div>
                                         </div>
 
+
                                     </div>
-
-
-
-
-
 
 
 
@@ -233,14 +275,16 @@
                                 <div class="col-lg-6">
 
 
+
+
                                     <div class="_item_feature">
                                         <div class="row">
-                                            <div class="col-2">
+                                            <div class="col-1">
                                                 <i class="fa-solid fa-wine-glass"></i>
 
                                             </div>
-                                            <div class="col-10">
-                                                <h3>Food</h3>
+                                            <div class="col-11">
+                                                <h3>Food & Drinks</h3>
                                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ipsam
                                                     cupiditate neque tenetur doloribus libero veritatis incidunt natus
                                                     dignissimos voluptas.</p>
@@ -248,11 +292,8 @@
                                             </div>
                                         </div>
 
+
                                     </div>
-
-
-
-
 
 
 
@@ -265,9 +306,9 @@
                 </div>
 
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-12">
 
-                    <div class="_right_feature">
+                    <div class="_right_feature" data-aos="fade-up">
                         <img src="/assets/Group 5.png" class="img-fluid" alt="" srcset="">
 
 
@@ -285,7 +326,7 @@
                 <h1>ATTRACTIONS</h1>
             </div>
 
-            <div class="_attaction_contain">
+            <div class="_attaction_contain" data-aos="fade-down">
 
 
                 <div class="swiper mySwiper">
@@ -373,7 +414,7 @@
             <div class="sec__title__five">
                 <h1>Take A <span> Park</span> Tour</h1>
             </div>
-            <div class="sec__des__five">
+            <div class="sec__des__five" data-aos="fade-left">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus atque labore, autem asperiores
                     voluptates aut magnam aperiam ad excepturi fugiat quam voluptatem! Maxime repudiandae temporibus
                     ipsum optio, necessitatibus voluptates esse beatae facere, accusamus eum quis blanditiis quibusdam
@@ -381,7 +422,7 @@
                     aliquid?</p>
             </div>
 
-            <div class="sec__video__five">
+            <div class="sec__video__five" data-aos="fade-down">
                 <div class="row">
                     <div class="col-12 " style="text-align:center">
 
@@ -401,7 +442,15 @@
     <!-- section 6 tour -->
 
     <section class="section__six customcc">
-
+        <div class="bubbles">
+            <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+      
+        
+          
+        </div>
         <div class="container-fluid">
             <div class="sec__subtitle__six">
                 <h3>LATEST EVENTS </h3>
@@ -415,7 +464,7 @@
                     nihil dicta, et ullam!</p>
             </div>
 
-            <div class="__cards__upcoming">
+            <div class="__cards__upcoming" data-aos="fade-left">
 
                 <div class="row">
                     <div class="col-lg-6 ">
@@ -545,7 +594,7 @@
 
                             <div class="__testi__content">
                                 <h3>John Doe</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
                             </div>
 
                         </div>
@@ -560,7 +609,7 @@
     
                                 <div class="__testi__content">
                                     <h3>John Doe</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
                                 </div>
     
                             </div>
@@ -574,7 +623,7 @@
     
                                 <div class="__testi__content">
                                     <h3>John Doe</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
                                 </div>
     
                             </div>
@@ -588,7 +637,7 @@
     
                                 <div class="__testi__content">
                                     <h3>John Doe</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
                                 </div>
     
                             </div>
@@ -725,12 +774,13 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, soluta?            
                                         <i  class="fa-brands fa-square-facebook nav-link active" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"></i>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <i  class="fa-brands fa-square-facebook nav-link active" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-home" aria-selected="true"></i>
+                                        <i  class="fa-brands fa-square-youtube nav-link " data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-home" aria-selected="true"></i>
 
                                       <!-- <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button> -->
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <i  class="fa-brands fa-square-facebook nav-link active" id="pills-contact" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="true"></i>
+                                        <i  class="fa-brands fa-square-instagram nav-link " id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"></i>
+
 
                                       <!-- <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button> -->
                                     </li>
@@ -739,22 +789,24 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, soluta?            
 
 
 
+                                    <div class="_frame__content__main ">
 
                                   <div class="tab-content" id="pills-tabContent">
                                     <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                                        lolo
+                                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fwaterkingdomjhiljhile&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId" width="100%" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 
                                     </div>
                                     <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                                        ok
+                                        <iframe width="100%" height="500" src="https://www.youtube.com/embed/Wi45mOlaVBo" title="Water Kingdom Park & Resort | Jhiljhile, Jhapa | Shivasatakshi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                                     </div>
                                     <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                                        nice
+                                        Instagram
                                     </div>
                                   </div>
                                   
 
+                                </div>
 
 
                             </div>
@@ -769,7 +821,83 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, soluta?            
 
 
 
+    <!-- footer -->
+    <footer class="footer__main ">
+        <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-3">
+                <div class="_middle_contents  " style="display: none;">
+                    <div class="_logo_main_middle ">
+                        <img src="assets/logo.png" alt="">
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, sint!</p>
+                    <div class="__social__foter">
+                        <ul>
+                            <li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-square-youtube"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                            <!-- right links -->
+                            <div class="row"> 
+                                <div class="col-lg-6 col-6">
+                                    <div class="_right__links">
+                                        <h3>Quick Links</h3>
+                                        <ul>
+                                            <li><a href="">Home</a></li>
+                                            <li><a href="">About</a></li>
+                                            <li><a href="">Contact</a></li>
+                                            <li><a href="">Gallery</a></li>
+                                            <li><a href="">News</a></li>
+                                        </ul>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-lg-6 col-6">
+                                    <div class="_right__links">
+                                        <h3>Support</h3>
+                                        <ul>
+                                            <li><a href="">Home</a></li>
+                                            <li><a href="">About</a></li>
+                                            <li><a href="">Contact</a></li>
+                                            <li><a href="">Gallery</a></li>
+                                            <li><a href="">News</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+               </div>
+               <div class="col-lg-6"  style="display: flex;place-content: center;">
+                <!-- middle links -->
+                                <div class="_middle_content ">
+                                    <div class="_logo_main_middle ">
+                                        <img src="assets/logo.png" alt="">
+                                    </div>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, sint!</p>
+                                    <div class="__social__foter">
+                                        <ul>
+                                            <li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
+                                            <li><a href=""><i class="fa-brands fa-square-youtube"></i></a></li>
+                                            <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+               </div>
+               <div class="col-lg-3">
+                    <!-- right endcontent -->
+                    <div class="_right__end__content">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius molestias aperiam neque tenetur esse enim error, quam ipsam consectetur harum.</p>
+                    </div>
+                </div>
 
+
+
+               </div>
+            </div>
+        </div>
+    </footer>
 
 
 
@@ -784,14 +912,29 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, soluta?            
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <!-- bootstrap js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <!-- Initialize Swiper -->
     <script>
+          AOS.init({
+            once: true,
+          });
+
+
+        document.querySelector("body > nav > div.phoneNAV > div.cross__mark").onclick=function () {
+            document.querySelector("body > nav > div.phoneNAV").style.width=0   
+        }
+        
+        document.querySelector("body > nav > div.container-fluid > div.ham__burger > i").onclick=function () {
+            document.querySelector("body > nav > div.phoneNAV").style.width="100%"
+        }
+
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 1,
             spaceBetween: 20,
             freeMode: true,
             autoplay: {
-                delay: 2000,
+                delay: 1000,
                 disableOnInteraction: false,
             },
             loop: true,
