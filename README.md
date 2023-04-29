@@ -1,1 +1,1 @@
-#Funpark site
+nothing fun as the name sounds
